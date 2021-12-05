@@ -30,7 +30,7 @@ public class HomeController {
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
 		
 		String formattedDate = dateFormat.format(date);
-		String test = "git test0327";
+		String test = "git test1205";
  		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
